@@ -6,7 +6,7 @@ const port = process.env.PORT || 5000;
 
 const app = require('./app')
 
-mongoose.connect(process.env.DATABASE).then(() => {
+mongoose.connect(process.env.DATABASE_LOCAL).then(() => {
     console.log('data is on')
 });
 
