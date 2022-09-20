@@ -8,7 +8,7 @@ const app = require('./app')
 
 
 
-mongoose.connect(process.env.DATABASE_LOCAL).then(() => {
+mongoose.connect(process.env.DATABASE).then(() => {
     console.log('data is on')
 });
 
